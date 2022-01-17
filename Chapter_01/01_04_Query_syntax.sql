@@ -21,22 +21,24 @@ WHERE O_ORDERDATE < '1998-01-01'
 
 -- 2. Calculate some metrics for the customers in the auto industry
 WITH
-auto_customer as (
-    SELECT *
-    FROM SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER
-    WHERE C_MKTSEGMENT = 'AUTOMOBILE'
+auto_customer_key as (
+  SELECT C_CUSTKEY 
+  FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER"
+  WHERE C_MKTSEGMENT = 'AUTOMOBILE'
 ),
-
+orders_by_auto_customer as (
+  SELECT O_ORDERKEY
+  FROM SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS
+  WHERE O_CUSTKEY in (SELECT * FROM auto_customer_key)
+),
 metrics as (
-    SELECT 'customers' as metric, count(*) as value
-    FROM auto_customer
+  SELECT 'customers' as metric, count(*) as value 
+  FROM auto_customer_key
 
-    UNION ALL
+  UNION ALL
 
-    SELECT 'orders by these customers', count(*)
-    FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."ORDERS"
-    WHERE O_CUSTKEY in
-          (SELECT C_CUSTKEY FROM auto_customer)
+  SELECT 'orders by these customers', count(*)
+  FROM orders_by_auto_customer
 )
 SELECT * FROM metrics;
 
