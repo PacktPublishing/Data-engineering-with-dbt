@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: abc_bank
+
+    database: PORTFOLIO_TRACKING
+    schema: SOURCE_DATA
+
+    tables:
+      - name: ABC_BANK_POSITION

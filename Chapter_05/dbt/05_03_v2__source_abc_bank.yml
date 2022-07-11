@@ -1,0 +1,52 @@
+version: 2
+
+sources:
+
+  - name: abc_bank
+
+    database: PORTFOLIO_TRACKING
+    schema: SOURCE_DATA
+
+    tables:
+      - name: ABC_BANK_POSITION
+        description: The landing table holding the data imported from the CSV extracted by ABC Bank.
+        columns:
+          - name: ACCOUNTID
+            description: The code for the account at the ABC Bank.
+            tests:
+              - not_null
+          - name: SYMBOL
+            description: The symbol of the security for the ABC Bank.
+            tests:
+              - unique
+              - not_null
+          - name: DESCRIPTION
+            description: The name of the security at the ABC Bank.
+            tests:
+              - not_null
+          - name: EXCHANGE
+            description: The short name or code of the exchange where the security is traded.
+            tests:
+              - not_null
+          - name: REPORT_DATE
+            description: >
+              The date of the portfolio report extracted by ABC Bank.
+              We consider this position to be the effective from this date forward, until a change is seen.
+            tests:
+              - not_null
+          - name: QUANTITY
+            description: The number of secuities we hold in the portfolio at ABC Bank at the Report Date.
+            tests:
+              - not_null
+          - name: COST_BASE
+            description: The cost we paid attributable to the secuities we hold in the portfolio at ABC Bank at the Report Date.
+            tests:
+              - not_null
+          - name: POSITION_VALUE
+            description: The value of the secuities we hold in the portfolio at ABC Bank acording to market quotation on the Report Date.
+            tests:
+              - not_null
+          - name: CURRENCY
+            description: The currency for the monetary amounts of the position.
+            tests:
+              - not_null
