@@ -1,0 +1,71 @@
+Name,ID,Country,City,Zone,Delta,DST_period,Open,Close,Lunch,Open_UTC,Close_UTC,Lunch_UTC
+Euronext Amsterdam,AMS,Netherlands,Amsterdam,CET,1,Mar-Oct,09:00,17:40,No,08:00,16:40,No
+Armenia Securities Exchange,AMX,Armenia,Yerevan,AMT,4,,10:00,15:00,No,06:00,11:00,No
+Amman Stock Exchange,ASE,Jordan,Amman,EET,2,Mar-Oct,10:00,12:00,No,08:00,10:00,No
+Australian Securities Exchange,ASX,Australia,Sydney,AEST,10,Oct-Apr,10:00,16:00,No,00:00,06:00,No
+Buenos Aires Stock Exchange,BCBA,Argentina,Buenos Aires,ART,_3,,11:00,17:00,No,14:00,20:00,No
+Spanish Stock Exchange,BME,Spain,Madrid,CET,1,Mar-Oct,09:00,17:30,No,08:00,16:30,No
+Mexican Stock Exchange,BMV,Mexico,Mexico City,CST,_6,Apr-Oct,08:30,15:00,No,14:30,21:00,No
+Bolsa de Valores de Sao Paulo,Bovespa,Brazil,Sao Paulo,BRT,_3,Suspended,10:00,17:30,No,13:00,20:00,No
+Euronext Brussels,BRU,Belgium,Brussels,CET,1,Mar-Oct,09:00,17:30,No,08:00,16:30,No
+Bombay Stock Exchange,BSE:IN,India,Mumbai,IST,5.5,,09:15,15:30,No,03:45,10:00,No
+Beirut Stock Exchange,BSE:LB,Lebanon,Beirut,EET,2,Mar-Oct,09:30,12:30,No,07:30,10:30,No
+Budapest Stock Exchange,BSE:HU,Hungary,Budapest,CET,1,Mar-Oct,09:00,17:00,No,08:00,16:00,No
+Bucharest Stock Exchange,BVB,Romania,Bucharest,EET,2,Mar-Oct,10:00,18:00,No,08:00,15:45,No
+Berne eXchange,BX,Switzerland,Berne,CET,1,Mar-Oct,09:00,16:30,No,08:00,15:30,No
+Colombo Stock Exchange,CSE:LK,Sri Lanka,Colombo,SLST,5.5,,09:30,14:30,No,04:00,09:00,No
+Chittagong Stock Exchange,CSE:BD,Bangladesh,Chittagong,BST,6,,10:30,14:30,No,04:30,08:30,No
+Copenhagen Stock Exchange,CSE:DK,Denmark,Copenhagen,CET,1,Mar-Oct,09:00,17:00,No,08:00,16:00,No
+Casablanca Stock Exchange,CSE:MA,Maroc,Casablanca,CET,0,Mar-Oct,08:10,15:55,No,08:10,15:55,No
+Dhaka Stock Exchange,DSE:BD,Bangladesh,Dhaka,BST,6,,10:30,14:30,No,04:30,08:30,No
+Dar es Salaam Stock Exchange,DSE:TZ,Tanzania,Dar es Salaam,EAT,3,,08:00,17:00,No,05:00,14:00,No
+Egyptian Exchange,EGX,Egypt,Cairo,EET,2,,10:00,14:30,No,08:00,12:30,No
+Euronext Paris,EPA,France,Paris,CET,1,Mar-Oct,09:00,17:30,No,08:00,16:30,No
+Eurex Exchange,EUREX,Germany,Eschborn,CET,1,Mar-Oct,08:00,22:00,No,07:00,21:00,No
+Frankfurt Stock Exchange (Xetra),FSX,Germany,Frankfurt,CET,1,Mar-Oct,08:00,20:00,No,07:00,19:00,No
+Warsaw Stock Exchange,GPW,Poland,Warsaw,CET,1,Mar-Oct,09:00,17:00,No,08:00,16:00,No
+Hong Kong Stock Exchange,HKEX,Hong Kong,Hong Kong,HKT,8,,09:30,16:00,12:00-13:00,01:30,08:00,04:00-05:00
+Hong Kong Futures Exchange,HKFE,Hong Kong,Hong Kong,HKT,8,,09:15,16:00,12:00-13:00,01:15,08:00,04:00-05:00
+Hanoi Stock Exchange,HNX,Vietnam,Hanoi,ICT,7,,09:00,14:45,11:30-13:00,02:00,07:45,04:30-06:00
+Hochiminh Stock Exchange,HOSE,Vietnam,Hochiminh,ICT,7,,09:00,14:45,11:30-13:00,02:00,07:45,04:30-06:00
+Indonesia Stock Exchange,IDX,Indonesia,Jakarta,WIB,7,,09:00,16:00,12:00-13:30 (Mon-Thu) 11:30-14:00 (Fri),02:00,09:00,05:00-06:30 (Mon-Thu) 04:30-07:00 (Fri)
+Borsa Istanbul,ISE:TR,Turkey,Istanbul,TRT,3,,10:00,18:00,13:00-14:00,07:00,15:00,10:00-11:00
+Irish Stock Exchange,ISE:IE,Ireland,Dublin,GMT,0,Mar-Oct,08:00,16:30,No,08:00,16:30,No
+Johannesburg Stock Exchange,JSE:ZA,South Africa,Johannesburg,SAST,2,,09:00,17:00,No,07:00,15:00,No
+Jamaica Stock Exchange,JSE:JM,Jamaica,Kingston,EST,_5,,09:00,13:00,No,13:00,17:00,No
+Korea Stock Exchange,KRX,South Korea,Busan & Seoul,KST,9,,09:00,15:30,No,00:00,06:30,No
+London Stock Exchange,LSE,United Kingdom,London,GMT,0,Mar-Oct,08:00,16:30,No,08:00,16:30,No
+Luxembourg Stock Exchange,LuxSE,Luxembourg,Luxembourg City,CET,1,Mar-Oct,09:00,17:35,No,08:00,16:35,No
+Moscow Exchange,MOEX,Russia,Moscow,MSK,3,,10:00,18:45,No,07:00,15:45,No
+Malta Stock Exchange,MSE,Malta,Valletta,CET,1,Mar-Oct,09:30,12:30,No,08:30,11:30,No
+Milan Stock Exchange,MTA,Italy,Milan,CET,1,Mar-Oct,09:00,17:35,No,08:00,16:35,No
+Bursa Malaysia,MYX,Malaysia,Kuala Lumpur,MYT,8,,09:00,17:00,12:30-14:30,01:00,09:00,04:30-06:30
+NASDAQ,NASDAQ,United States,New York,EST,_5,Mar-Nov,09:30,16:00,No,13:30,20:00,No
+National Stock Exchange of India,NSE:IN,India,Mumbai,IST,5.5,,09:15,15:30,No,03:45,10:00,No
+Nairobi Securities Exchange,NSE:KE,Kenya,Nairobi,EAT,3,,09:30,15:00,No,06:30,12:00,No
+Nigerian Stock Exchange,NSE:NG,Nigeria,Lagos,WAT,1,,10:00,14:20,No,09:00,15:00,No
+New York Stock Exchange,NYSE,United States,New York,EST,_5,Mar-Nov,09:30,16:00,No,13:30,20:00,No
+New Zealand Stock Market,NZSX,New Zealand,Wellington,NZST,12,Sep-Apr,10:00,16:45,No,22:00,05:00,No
+Helsinki Stock Exchange,OMXH,Finland,Helsinki,EET,2,Mar-Oct,10:00,18:30,No,08:00,16:30,No
+Riga Stock Exchange,OMXR,Latvia,Riga,EET,2,Mar-Oct,10:00,16:00,No,08:00,14:00,No
+Stockholm Stock Exchange,OMXS,Sweden,Stockholm,CET,1,Mar-Oct,09:00,17:30,No,08:00,16:30,No
+Tallinn Stock Exchange,OMXT,Estonia,Tallinn,EET,2,Mar-Oct,10:00,16:00,No,08:00,14:00,No
+NASDAQ OMX Vilnius,OMXV,Lithuania,Vilnius,EET,2,Mar-Oct,10:00,16:00,No,08:00,14:00,No
+Oslo Stock Exchange,OSE,Norway,Oslo,CET,1,Mar-Oct,09:00,16:30,No,08:00,15:30,No
+Philippine Stock Exchange,PSE,Philippines,Manila,PHT,8,,09:30,15:30,12:00-13:30,01:30,07:30,04:00-05:30
+Euronext Lisbon,PSI,Portugal,Lisbon,GMT,0,Mar-Oct,08:00,16:30,No,08:00,16:30,No
+Pakistan Stock Exchange,PSX,Pakistan,Karachi,PKT,5,,09:30,15:30,No,04:30,10:30,No
+Stock Exchange of Thailand,SET,Thailand,Bangkok,ICT,7,,10:00,16:30,12:30-14:30,03:00,09:30,05:30-07:30
+Singapore Exchange,SGX,Singapore,Singapore,SGT,8,,09:00,17:00,12:00-13:00,01:00,09:00,Yes
+Swiss Exchange,SIX,Switzerland,Zurich,CET,1,Mar-Oct,09:00,17:30,No,08:00,16:30,No
+Shanghai Stock Exchange,SSE,China,Shanghai,CST,8,,09:30,15:00,11:30-13:00,01:30,07:00,03:30-05:00
+Saint Vincent and the Grenadines Exchange,SVGEX,Saint Vincent and the Grenadines,Kingstown,AST,-4,,09:00,16:00,11:30-13:00,13:00,20:00,15:30-17:00
+Shenzhen Stock Exchange,SZSE,China,Shenzhen,CST,8,,09:30,15:00,11:30-13:00,01:30,07:00,03:30-05:00
+Saudi Stock Exchange,TADAWUL,Saudi Arabia,Riyadh,AST,3,,10:00,15:00,No,07:00,12:00,No
+Tel Aviv Stock Exchange,TASE,Israel,Tel Aviv,IST,2,Mar-Oct,09:00,17:30,No,07:00,15:30,No
+Tokyo Stock Exchange,TSE:JP,Japan,Tokyo,JST,9,,09:00,15:00,11:30-12:30,00:00,08:00,02:30-03:30
+Tehran Stock Exchange,TSE:IR,Iran,Tehran,IRST,3.5,,09:00,12:30,No,05:30,09:00,No
+Toronto Stock Exchange,TSX,Canada,Toronto,EST,_5,Mar-Nov,09:30,16:00,No,13:30,21:00,No
+Taiwan Stock Exchange,TWSE,Taiwan (Republic of China),Taipei,CST,8,,09:00,13:30,No,01:00,05:30,No
+Ukrainian Exchange,UX,Ukraine,Kiev,EET,2,Mar-Oct,10:00,17:30,No,08:00,15:30,No
+Wiener Börse AG,VSE,Austria,Vienna,CET,1,Mar-Oct,08:55,17:35,No,07:55,16:35,No
