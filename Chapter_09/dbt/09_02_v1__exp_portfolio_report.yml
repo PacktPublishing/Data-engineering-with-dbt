@@ -1,0 +1,20 @@
+version: 2
+
+exposures:
+
+  - name: portfolio_report
+    type: dashboard
+    maturity: low
+    # url: https://xxxx/reports/portfolio_report
+    description: |
+      The basic portfolio report to know the positions by account.
+
+      {{ doc('exp_portfolio_report') }}
+
+    depends_on:
+      - ref('FACT_POSITION')
+      - ref('DIM_SECURITY')
+
+    owner:
+      name: Roberto
+      email: rz70rz70@gmail.com
