@@ -29,7 +29,7 @@ load_from_input as (
     SELECT i.*
     FROM {{input_rel}} as i
     LEFT OUTER JOIN current_from_history as h ON h.{{diff_column}} = i.{{diff_column}}
-    WHERE i.{{diff_column}} is null
+    WHERE h.{{diff_column}} is null
         and {{input_filter_expr}}
     {%- if high_watermark_column %}
         and {{high_watermark_column}} {{high_watermark_test}} (select max({{high_watermark_column}}) from {{ this }})
