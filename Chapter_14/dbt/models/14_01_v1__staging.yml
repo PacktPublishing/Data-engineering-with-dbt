@@ -1,0 +1,47 @@
+version: 2
+
+models:
+
+  - name: STG_ABC_BANK_POSITION
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: " YEAR(REPORT_DATE) >= 2000 "
+
+  - name: HIST_ABC_BANK_POSITION
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - POSITION_HKEY
+            - LOAD_TS_UTC
+    columns:
+      - name: POSITION_HKEY
+        tests:
+          - no_hash_collisions:
+              hashed_fields: ACCOUNT_CODE, SECURITY_CODE
+      - name: POSITION_HDIFF
+        tests:
+          - no_hash_collisions:
+              hashed_fields: "{{ as_sql_list(
+                [ 'ACCOUNT_CODE', 'SECURITY_CODE',
+                  'SECURITY_NAME', 'EXCHANGE_CODE', 'REPORT_DATE',
+                  'QUANTITY', 'COST_BASE', 'POSITION_VALUE', 'CURRENCY_CODE' 
+                ] ) }}"
+
+  - name: HIST_ABC_BANK_SECURITY_INFO
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - SECURITY_HKEY
+            - LOAD_TS_UTC
+    columns:
+      - name: SECURITY_HKEY
+        tests:
+          - no_hash_collisions:
+              hashed_fields: SECURITY_CODE
+      - name: SECURITY_HDIFF
+        tests:
+          - no_hash_collisions:
+              hashed_fields: "{{ as_sql_list(
+                [ 'SECURITY_CODE', 'SECURITY_NAME', 'SECTOR_NAME', 
+                  'INDUSTRY_NAME', 'COUNTRY_CODE', 'EXCHANGE_CODE' 
+                ] ) }}"

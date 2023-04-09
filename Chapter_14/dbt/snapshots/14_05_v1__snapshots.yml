@@ -1,0 +1,32 @@
+version: 2
+
+snapshots:
+
+  - name: SNSH_ABC_BANK_POSITION
+    # columns:
+    #   - name: POSITION_HKEY
+    #     tests:
+    #       - no_hash_collisions:
+    #           hashed_fields: ACCOUNT_CODE, SECURITY_CODE
+    #   - name: POSITION_HDIFF
+    #     tests:
+    #       - no_hash_collisions:
+    #           hashed_fields: "{{ as_sql_list(
+    #             [ 'ACCOUNT_CODE', 'SECURITY_CODE',
+    #               'SECURITY_NAME', 'EXCHANGE_CODE', 'REPORT_DATE',
+    #               'QUANTITY', 'COST_BASE', 'POSITION_VALUE', 'CURRENCY_CODE' 
+    #             ] ) }}"
+
+  - name: SNSH_ABC_BANK_SECURITY_INFO
+    # columns:
+    #   - name: SECURITY_HKEY
+    #     tests:
+    #       - no_hash_collisions:
+    #           hashed_fields: SECURITY_CODE
+    #   - name: SECURITY_HDIFF
+    #     tests:
+    #       - no_hash_collisions:
+    #           hashed_fields: "{{ as_sql_list(
+    #             [ 'SECURITY_CODE', 'SECURITY_NAME', 'SECTOR_NAME', 
+    #               'INDUSTRY_NAME', 'COUNTRY_CODE', 'EXCHANGE_CODE' 
+    #             ] ) }}"
