@@ -25,7 +25,7 @@ hashed as (
                 'QUANTITY', 'COST_BASE', 'POSITION_VALUE', 'CURRENCY_CODE'
                 ]) }} as POSITION_HDIFF
         , *
-        , '{{ run_started_at }}' as LOAD_TS_UTC
+        , '{{ run_started_at }}'::timestamp as LOAD_TS_UTC
     FROM src_data
 )
 
