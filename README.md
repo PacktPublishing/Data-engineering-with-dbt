@@ -4,10 +4,10 @@ This repository contains code samples for the book **Data Engineering with dbt**
 Please look up the [LICENSE](LICENSE) before using this repository.
 
 ## Organization of this Repository
-This is not the repository for the dbt project used as a sample in the book.
+This is not the repository for the dbt project used as a sample in the book, even if it includes the code for that project.
 At the end of this readme there is a small presentation of [the sample dbt project](#the-sample-dbt-project) 
 
-The files in this repo represents the evolution of the code as discussed in the different chapters of the book.
+The files in this repo represents the **evolution of the code** as discussed in the different chapters of the book.
 Because of that the files are organized by book chapter.
 
 When one source file undergoes many substantial changes in a chapter we have provided multiple versions of the file to
@@ -20,9 +20,13 @@ Longer samples can be in their own file.
 
 ### Code from the remaining chapters
 In chapter 5 we start the sample dbt project and from that point onward each file in this repo represents
-one version of a file in the dbt project.
+one version of a file in the dbt project or a sample that we have discussed even if not part of the sample project.
 
-In the early phases of the sample project we have few models 
+Inside each chapter the files that represent dbt objects (models, macros and others) are under a `dbt` folder, 
+while other files that might represent CSV files or commands to be executed in Snowflake are in separate folders. 
+
+In the early phases of the sample project we have few models, so they all are under the `dbt` folder.
+When we have multiple types of dbt object we have placed each type of file in its sub-folder. 
 
 
 ## The sample dbt project
