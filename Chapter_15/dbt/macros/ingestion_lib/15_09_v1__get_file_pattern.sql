@@ -1,8 +1,8 @@
 {%- macro get_file_pattern(
         table_name,
-        num_days = 7,
+        num_days = 5,
         last_date = None, 
-        file_path_prefix = 'unicum-fin/', 
+        file_path_prefix = 'root-folder/',
         file_path_suffix = '[.]gz'
     ) -%}
 
