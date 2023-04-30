@@ -1,9 +1,11 @@
 # Data Engineering with dbt - Code Samples
-This repository contains code samples for the book Data Engineering with dbt.
+This repository contains code samples for the book **Data Engineering with dbt** by Roberto Zagni, published by PacktPublishing.
+
+Please look up the [LICENSE](LICENSE) before using this repository.
 
 ## Organization of this Repository
 This is not the repository for the dbt project used as a sample in the book.
-At the end of this readme you have a small discussion of [the sample dbt project](#the-sample-dbt-project) 
+At the end of this readme there is a small presentation of [the sample dbt project](#the-sample-dbt-project) 
 
 The files in this repo represents the evolution of the code as discussed in the different chapters of the book.
 Because of that the files are organized by book chapter.
@@ -24,6 +26,18 @@ In the early phases of the sample project we have few models
 
 
 ## The sample dbt project
+The book **Data Engineering with dbt** uses a sample project to describe how dbt works with a practical approach.
+
+The sample starts simple and then is evolved introducing more dbt features and software engineering best practices.
+
+The sample is not intended to be a full fledged project, but just a tool to discuss ho to approach the building 
+of real dbt projects applying the right features and best practices.
+
+As such the sample project uses few dbt models and evolves them by introducing new dbt features 
+and explaining the software engineering principles that guide the evolution of the models or the use of one 
+feature instead of another.
+
+In the book we often refer to the organization of the sample project, including folder names.
 The layout of the sample dbt project described in the book can be seen in the following picture: 
 
 ![The layout of the dbt project](dbt_project_layout.png)
