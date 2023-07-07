@@ -1,4 +1,4 @@
-#Data Engineering with dbt 
+# Data Engineering with dbt 
 
 <a href="https://www.amazon.com/Data-Engineering-dbt-cloud-based-dependable/dp/1803246286/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1688627636&sr=8-1&utm_source=github&utm_medium=repository&utm_campaign=9781801810135"><img src="https://m.media-amazon.com/images/I/718dPVsOmOL._SL1500_.jpg" alt="" height="256px" align="right"></a>
 
@@ -49,14 +49,18 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
-*  [[Data Engineering with AWS]](https://www.packtpub.com/product/data-engineering-with-aws/9781800560413?utm_source=github&utm_medium=repository&utm_campaign=9781800560413) [[Amazon]](https://www.amazon.com/dp/1804614424)
+*  Data Engineering with AWS[[Packt]](https://www.packtpub.com/product/data-engineering-with-aws/9781800560413?utm_source=github&utm_medium=repository&utm_campaign=9781800560413) [[Amazon]](https://www.amazon.com/dp/1804614424)
 
-*  [[Data Engineering with Python]](https://www.packtpub.com/product/data-engineering-with-python/9781839214189?utm_source=github&utm_medium=repository&utm_campaign=9781839214189) [[Amazon]](https://www.amazon.com/dp/183921418X)
+*  Data Engineering with Python[[Packt]](https://www.packtpub.com/product/data-engineering-with-python/9781839214189?utm_source=github&utm_medium=repository&utm_campaign=9781839214189) [[Amazon]](https://www.amazon.com/dp/183921418X)
 
 
 ## Get to Know the Author
 **Roberto Zagni**
 is a senior leader with extensive hands-on experience in data architecture, software development and agile methodologies. Roberto is an Electronic Engineer by training with a special interest in bringing software engineering best practices to cloud data platforms and growing great teams that enjoy what they do. He has been helping companies to better use their data, and now to transition to cloud based Data Automation with an agile mindset and proper SW engineering tools and processes, aka DataOps. Roberto also coaches data teams hands-on about practical data architecture and the use of patterns, testing, version control and agile collaboration. Since 2019 his go to tools are dbt, dbt Cloud and Snowflake or BigQuery.
+
+
+
+
 
 
 
